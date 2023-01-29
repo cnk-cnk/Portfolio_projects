@@ -1,6 +1,5 @@
 # SQL_Analyses_Accidents_FRANCE_2021
 
-/*
 
 Le projet se décompose en deux parties, l'exploration des données avec SQL et la visualisation des données avec Tableau desktop.
 
@@ -35,8 +34,8 @@ Comment sont rélier ces tables :
 
 - Caracteristiques (1,1) ---- (1,1)  Lieu  (1,n) ---- (1,1) Véhicules(1,n) ---- (1,1) Usager.
 
-- *Selon les règles de BDR les champs de la table lieu ou Caracteristiques doivent migrer dans l'une des tables.. mais ces données ont été rangés ainsi sur le site data.gouv.fr (en fichier CSV et non comme une BDR);
-- *Un lieu est lié à plusieurs accidents (véhicules, piétons) mais un Véhicule fait un accident sur un lieu au minimun et au maximun sur un lieu à un instant;
-- *Un véhicule contient un ou plusieurs accidentés (conducteur, passagers, piéton) mais un accidenté occupe au minimun un véhicule et au max un véhicule.
+- Selon les règles de BDR les champs de la table lieu ou Caracteristiques doivent migrer dans l'une des tables.. mais ces données ont été rangés ainsi sur le site data.gouv.fr (en fichier CSV et non comme une BDR);
+- Un lieu est lié à plusieurs accidents (véhicules, piétons) mais un Véhicule fait un accident sur un lieu au minimun et au maximun sur un lieu à un instant;
+- Un véhicule contient un ou plusieurs accidentés (conducteur, passagers, piéton) mais un accidenté occupe au minimun un véhicule et au max un véhicule.
 
-*/
+
